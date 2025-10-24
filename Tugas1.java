@@ -17,7 +17,7 @@ public class Tugas1 {
 
         System.out.print("Masukkan jumlah tiket yang dibeli: ");
         jumlahTiket = sc.nextInt();
-        sc.nextLine();
+        sc.nextLine(); //untuk menghapus sisa newline (\n) di buffer input setelah nextInt()
         
         if (jumlahTiket < 0) {
                 System.out.println("Jumlah tiket tidak valid! Masukkan lagi.\n");
